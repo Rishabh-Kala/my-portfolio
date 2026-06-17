@@ -10,7 +10,7 @@ export function Education() {
     <section className="px-6 py-24">
       <div className="mx-auto max-w-4xl">
         <Reveal>
-          <SectionHeading index="05" title="Education" />
+          <SectionHeading index="06" title="Education" />
         </Reveal>
 
         <Reveal className="mt-8">
@@ -25,10 +25,16 @@ export function Education() {
                 <p className="mt-2 font-mono text-xs text-portfolio-accent">
                   {education.dates} / {education.cgpa}
                 </p>
-                <p className="mt-2 text-xs text-portfolio-muted">{education.coursework}</p>
-                <div className="mt-3 inline-flex items-center gap-2 rounded-full border border-portfolio-line bg-portfolio-bg px-3 py-1 text-xs text-portfolio-accent">
-                  <AwardIcon size={12} />
-                  {education.award}
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {education.awards.map((award) => (
+                    <div
+                      className="inline-flex items-center gap-2 rounded-full border border-portfolio-line bg-portfolio-bg px-3 py-1 text-xs text-portfolio-accent"
+                      key={award}
+                    >
+                      <AwardIcon size={12} />
+                      {award}
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

@@ -20,7 +20,7 @@ export function Experience() {
                 <p className="mt-1 font-mono text-sm text-portfolio-accent">{experience.company}</p>
               </div>
               <span className="rounded-full border border-portfolio-line bg-portfolio-bg px-3 py-1 text-sm text-portfolio-muted">
-                {experience.dates}
+                {experience.dates} · {experience.location}
               </span>
             </div>
 
@@ -38,6 +38,7 @@ export function Experience() {
                 </div>
               ))}
             </div>
+
           </div>
         </Reveal>
       </div>

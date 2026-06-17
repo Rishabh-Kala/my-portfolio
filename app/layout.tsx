@@ -15,9 +15,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rishabh Kala - AI Platform Engineer",
+  title: "Rishabh Kala - Software Engineer",
   description:
-    "Portfolio for Rishabh Kala, an AI platform engineer building workflow automation, agent deployment systems, admin platforms, RBAC, audit, scheduler, notification, and cloud infrastructure.",
+    "Portfolio of Rishabh Kala, a software engineer building full-stack products, workflow automation platforms, admin and RBAC systems, and GenAI agent and RAG workflows.",
 };
 
 export default function RootLayout({

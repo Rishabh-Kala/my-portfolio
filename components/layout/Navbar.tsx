@@ -2,11 +2,18 @@
 
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { type MouseEvent, useState } from "react";
 import { navItems, profile } from "@/data/portfolio";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
+
+  const handleMobileNavigation = (event: MouseEvent<HTMLAnchorElement>, href: string) => {
+    event.preventDefault();
+    setOpen(false);
+    window.history.pushState(null, "", href);
+    requestAnimationFrame(() => document.querySelector(href)?.scrollIntoView({ behavior: "smooth" }));
+  };
 
   return (
     <nav className="fixed top-0 z-50 w-full border-b border-portfolio-line/50 bg-portfolio-bg/80 backdrop-blur-lg">
@@ -49,7 +56,7 @@ export function Navbar() {
               className="text-sm text-portfolio-muted transition-colors hover:text-portfolio-accent"
               href={item.href}
               key={item.href}
-              onClick={() => setOpen(false)}
+              onClick={(event) => handleMobileNavigation(event, item.href)}
             >
               {item.label}
             </Link>

@@ -6,6 +6,7 @@ import { Education } from "@/components/sections/Education";
 import { Experience } from "@/components/sections/Experience";
 import { FocusAreas } from "@/components/sections/FocusAreas";
 import { Hero } from "@/components/sections/Hero";
+import { Projects } from "@/components/sections/Projects";
 import { Skills } from "@/components/sections/Skills";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <About />
         <Experience />
+        <Projects />
         <Skills />
         <FocusAreas />
         <Education />

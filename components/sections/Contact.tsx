@@ -7,7 +7,7 @@ export function Contact() {
     <section className="bg-portfolio-band/50 px-6 py-24" id="contact">
       <div className="mx-auto max-w-2xl text-center">
         <Reveal>
-          <p className="mb-3 font-mono text-sm text-portfolio-accent">06. What&apos;s Next?</p>
+          <p className="mb-3 font-mono text-sm text-portfolio-accent">07. What&apos;s Next?</p>
           <h2 className="mb-4 text-3xl font-bold text-portfolio-heading md:text-4xl">Get In Touch</h2>
           <p className="mb-10 leading-relaxed text-portfolio-muted">
             I&apos;m open to Software Engineer and Full-Stack Software Engineer opportunities. Whether you&apos;re a

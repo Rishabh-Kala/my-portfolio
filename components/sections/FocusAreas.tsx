@@ -4,10 +4,10 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function FocusAreas() {
   return (
-    <section className="bg-portfolio-band/50 px-6 py-24" id="projects">
+    <section className="bg-portfolio-band/50 px-6 py-24" id="focus">
       <div className="mx-auto max-w-4xl">
         <Reveal>
-          <SectionHeading index="04" title="Focus Areas" />
+          <SectionHeading index="05" title="Focus Areas" />
         </Reveal>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

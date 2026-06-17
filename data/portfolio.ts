@@ -16,7 +16,7 @@ import {
 export const profile = {
   name: "Rishabh Kala",
   initials: "RK",
-  role: "AI Platform Engineer & Full-Stack Product Builder",
+  role: "Software Engineer | Full-Stack, AI & Automation",
   location: "Delhi, India",
   email: "rishabh.kala2003@gmail.com",
   phone: "9958124803",
@@ -24,24 +24,24 @@ export const profile = {
   linkedin: "https://linkedin.com/in/rishabh-kala",
   resume: "/rishabh-kala-resume.pdf",
   intro:
-    "I build production AI-agent platforms, workflow automation tools, admin consoles, RBAC and audit infrastructure, API gateways, scheduler/notification services, model-management systems, and service-side product features.",
+    "I have 2 years of experience building React and Next.js products, FastAPI-backed systems, workflow automation platforms, admin and RBAC tools, and GenAI agent and RAG workflows.",
   about: [
-    "I'm a Software Engineer focused on full-stack product engineering and internal platform systems. My recent work includes workflow builders, agent runtime controls, model-management APIs, audit-heavy admin operations, RBAC/MFA infrastructure, scheduler systems, and reliability improvements.",
-    "I thrive in fast-paced environments building complex systems that power AI-driven products, from visual workflow canvases to microservice orchestration and deployment pipelines.",
+    "I'm a Software Engineer focused on full-stack product engineering, workflow automation, and GenAI platforms. At Rapid Innovation, I have shipped production systems across React, Next.js, TypeScript, FastAPI, Bun/Elysia, REST, gRPC, and Protobuf.",
+    "My work spans visual workflow builders, AI model management, agent deployment, admin operations, org-scoped MFA, multi-role RBAC, RAG pipelines, and event-driven services. I enjoy taking complex platform problems from architecture through polished, reliable delivery.",
   ],
 };
 
 export const navItems = [
   { href: "#about", label: "About" },
   { href: "#experience", label: "Experience" },
-  { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
+  { href: "#skills", label: "Skills" },
   { href: "#contact", label: "Contact" },
 ];
 
 export const stats = [
-  { value: "2+", label: "Years Experience" },
-  { value: "75%", label: "API Reduction" },
+  { value: "2", label: "Years Experience" },
+  { value: "~80%", label: "Core Complexity Reduced" },
 ];
 
 export const socialLinks = [
@@ -51,139 +51,134 @@ export const socialLinks = [
 
 export const experience = {
   title: "Software Engineer",
-  company: "Rapid Innovation / RUH AI Product Unit",
+  company: "Rapid Innovation / Product Unit (RUH AI)",
   dates: "June 2024 - June 2026",
+  location: "Remote",
   bullets: [
     {
-      title: "Workflow Builder Platform",
+      title: "AI Workflow Automation Builder",
       description:
-        "Built major Workflow Builder capabilities including trigger CRUD, scheduler filtering, activity/log pages, workflow execution controls, stop execution, MCP auth state, Pipedream triggers, automation chat, generated workflow import, and responsive Figma-based UI.",
+        "Engineered the production platform using React, Next.js, TypeScript, and Bun/Elysia, delivering workflow canvas UX, Pipedream/OAuth triggers, MCP marketplace integration, scheduler management, execution controls, activity logs, and AI-assisted workflow generation.",
     },
     {
-      title: "1,947-Line Refactor",
+      title: "1,947-Line WorkflowNode Refactor",
       description:
-        "Refactored a large Workflow Builder node system from a monolithic component into modular React components, hooks, services, validators, utilities, and tests, improving maintainability and type safety.",
+        "Split a monolithic component into modular React components, hooks, services, and utilities, reducing core complexity by about 80%, enforcing TypeScript strict mode, and expanding coverage across OAuth, MCP, credential, store, and provider layers.",
     },
     {
-      title: "Super Admin & Admin Platforms",
+      title: "Super Admin & Operations Platform",
       description:
-        "Built internal operations modules for organisations, users, agents, workflows, MCPs, integrations, credits, transactions, campaigns, subscriptions, waitlist, inbox rotation, marketplace review, cross-org agent browsing, and admin dashboards.",
-    },
-    {
-      title: "RBAC, MFA & Audit Infrastructure",
-      description:
-        "Implemented multi-role admin RBAC, Redis-cached effective permissions, permission guards, permission catalog APIs, org-level email OTP MFA, reusable OTP UI, session verification, super-admin attribution, and non-blocking audit logs.",
+        "Built 10+ modules for organisations, users, AI agents, workflows, credits, subscriptions, marketplace reviews, RBAC permissions, and audit logs backed by REST and gRPC/Protobuf APIs.",
     },
     {
       title: "AI Model Management",
       description:
-        "Built model-management infrastructure across frontend, API gateway, proto definitions, and agent-builder service, including OpenRouter model sync, provider filters, active/global toggles, max-6 global model limits, audit logs, pagination, and agent-level model IDs.",
+        "Built model-management infrastructure across admin UI, API gateway, and agent-builder services with OpenRouter sync, activation controls, global and per-agent limits, and consolidation of 12 endpoints into 3 filter-driven APIs.",
     },
     {
-      title: "API Consolidation",
+      title: "MFA, RBAC & Audit Infrastructure",
       description:
-        "Reduced provider/model API surface area by 75% by consolidating 12 endpoints into 3 filter-driven APIs.",
+        "Designed org-scoped MFA and multi-role RBAC with Redis-backed OTPs, TTL and attempt lockout, timing-safe verification, session stamping, cached permission unions, and super-admin attribution across audit logs.",
     },
     {
       title: "Agent Deployment & Runtime",
       description:
-        "Delivered agent versioning, marketplace publish/update flows, GitHub/ZIP deployment source handling, running-deployment updates, runtime env-var staging/apply APIs, secret masking, SSE/polling progress, backup/restore, callbacks, and PI runtime support.",
+        "Delivered agent versioning, marketplace publish and update flows, secret-masked environment configuration, staged draft/apply workflows, SSE and polling progress, sandbox backup/restore, and rollback across React, Python, and Protobuf contracts.",
     },
     {
-      title: "Cloud Security & Platform Reliability",
+      title: "GenAI & Event-Driven Systems",
       description:
-        "Migrated services to Redis TLS/AUTH and private GCS signed URLs with GKE Workload Identity, updated CDN URL consumers, hardened rate limiting and secrets, and improved scheduler, notification, support-ticket, payment, legal, and analytics flows.",
+        "Applied OpenClaw agents, LangChain/LangGraph prototypes, RAG pipelines, prompt engineering, MCP tool orchestration, multimodal inputs, and event-driven notifications using Pub/Sub, Kafka, and SendGrid.",
     },
     {
-      title: "Notifications, Scheduler & Analytics",
+      title: "Cross-Project Product Delivery",
       description:
-        "Built agent lifecycle notifications, OpenRouter/Apollo credit alerts, support-ticket emails, payment/subscription notifications, scheduled task UI, Mixpanel login/signup/onboarding/SDR/campaign tracking, and production template fixes.",
+        "Worked across 7+ production service projects, delivering responsive product interfaces, Web3 experiences, and performance-focused canvas tooling.",
     },
   ],
 };
 
 export const skillGroups = [
-  { title: "Languages", skills: ["TypeScript", "JavaScript", "Python"] },
+  { title: "Languages", skills: ["TypeScript", "JavaScript (ES6+)", "Python", "Java", "SQL", "HTML5", "CSS3"] },
   {
     title: "Frontend",
     skills: [
-      "Next.js",
       "React.js",
+      "Next.js",
+      "Zustand",
+      "Redux Toolkit",
       "React Query",
-      "TypeScript UI Architecture",
-      "Canvas UI",
-      "Low-Code Workflow UI",
-      "Admin Consoles",
-      "Responsive UI",
+      "Tailwind CSS",
+      "MUI / Joy UI",
+      "styled-components",
+      "Konva",
+      "Storybook",
     ],
   },
   {
     title: "Backend",
-    skills: ["FastAPI", "REST APIs", "gRPC", "Protobuf", "Microservices", "API Gateway", "Bun / Elysia"],
-  },
-  {
-    title: "Database & Infrastructure",
-    skills: ["PostgreSQL", "Redis TLS/AUTH", "Kafka", "Pub/Sub", "GCS Signed URLs", "GKE", "Workload Identity"],
+    skills: ["FastAPI", "Node.js", "Express.js", "Bun / Elysia", "REST APIs", "gRPC / Protobuf", "JWT / OAuth", "WebSockets", "Microservices"],
   },
   {
     title: "AI / GenAI",
-    skills: [
-      "AI Agents",
-      "RAG",
-      "LangChain",
-      "LangGraph",
-      "Prompt Engineering",
-      "MCP",
-      "Workflow Automation",
-      "Model Management",
-      "Agent Deployment",
-      "Runtime Configuration",
-    ],
+    skills: ["LLM Integration", "RAG Pipelines", "LangChain", "LangGraph", "Prompt Engineering", "Agentic Workflows", "MCP Tool Orchestration", "OpenRouter", "Pipedream", "n8n"],
   },
   {
-    title: "Architecture & Systems",
-    skills: [
-      "RBAC",
-      "MFA",
-      "Audit Logging",
-      "Scheduler Systems",
-      "Notification Systems",
-      "Support Automation",
-      "Legal Versioning",
-      "Product Analytics",
-    ],
+    title: "Databases & Storage",
+    skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Supabase", "GCS", "S3", "Query Optimization"],
+  },
+  {
+    title: "Infrastructure & Tools",
+    skills: ["Docker", "GitHub Actions", "GCP", "Pub/Sub", "Kafka", "Git", "GitHub CLI", "Postman", "Linear", "Figma"],
+  },
+  {
+    title: "Testing & Quality",
+    skills: ["Jest", "React Testing Library", "Vitest", "Cypress", "Playwright", "ESLint", "TypeScript Strict Mode"],
+  },
+];
+
+export const projects = [
+  {
+    title: "NightShift Agent",
+    type: "Autonomous Development Agent",
+    description:
+      "A Python agent that converts Linear tickets into GitHub pull requests by gathering ticket context, resolving repositories, running Claude Code sessions, creating PR summaries, and updating ticket status.",
+    highlights:
+      "Built with isolated Git worktrees, parallel execution, retry tracking, repository filtering, and a two-agent TDD workflow using dedicated Test and Dev agents.",
+    technologies: ["Python", "Claude Code", "GitHub CLI", "Docker", "Linear API"],
+    href: "https://github.com/Rishabh-Kala/Night-Shift-Agent",
   },
 ];
 
 export const focusAreas = [
   {
     title: "Workflow Automation",
-    description: "Trigger CRUD, Pipedream triggers, scheduler flows, activity logs, MCP auth, automation chat, workflow import",
+    description: "Visual workflow canvases, Pipedream and OAuth triggers, MCP integrations, scheduling, execution controls, logs, and AI-assisted generation",
     icon: Workflow,
   },
   {
-    title: "AI Agent Platforms",
-    description: "Agent versioning, marketplace updates, GitHub/ZIP deployments, runtime env vars, PI runtime support",
+    title: "GenAI & Agentic Systems",
+    description: "OpenClaw agents, RAG pipelines, LangChain, LangGraph, prompt engineering, multimodal inputs, and MCP tool orchestration",
     icon: Bot,
   },
   {
     title: "RBAC & Security",
-    description: "Multi-role admins, MFA, audit logs, Redis-cached permissions, signed URLs, Redis TLS/AUTH",
+    description: "Org-scoped MFA, Redis-backed OTPs, multi-role RBAC, cached permission unions, session controls, and attributed audit logs",
     icon: Shield,
   },
   {
     title: "API & Backend",
-    description: "API Gateway, gRPC, protobuf contracts, provider/model API consolidation, service integrations",
+    description: "FastAPI, Bun/Elysia, REST, gRPC and Protobuf contracts, microservices, WebSockets, and filter-driven API consolidation",
     icon: Server,
   },
   {
     title: "Admin Consoles",
-    description: "Organisations, users, agents, credits, subscriptions, campaigns, waitlist, inbox rotation",
+    description: "Operations tooling for organisations, users, AI agents, workflows, credits, subscriptions, marketplace reviews, and permissions",
     icon: LayoutDashboard,
   },
   {
-    title: "Scheduler & Notifications",
-    description: "Lifecycle alerts, credit monitoring, support-ticket emails, payment notifications, analytics events",
+    title: "Agent Deployment",
+    description: "Versioning, marketplace publishing, secret-masked configuration, staged apply flows, progress streaming, backup, restore, and rollback",
     icon: Bell,
   },
 ];
@@ -193,8 +188,10 @@ export const education = {
   school: "JIMS Engineering Management Technical Campus",
   dates: "July 2020 - July 2024",
   cgpa: "CGPA: 8.6",
-  coursework: "Coursework: Data Structures, Algorithms, Databases, Operating Systems",
-  award: "Semi-Finalist - IEEE DTU National Hackathon, Vihaan 6.0",
+  awards: [
+    "Winner - Internal Hackathon, JIMS EMTC",
+    "Semi-Finalist - IEEE DTU National Hackathon, Vihaan 6.0",
+  ],
   icon: GraduationCap,
   awardIcon: Trophy,
 };

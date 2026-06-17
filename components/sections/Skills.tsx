@@ -8,7 +8,7 @@ export function Skills() {
     <section className="px-6 py-24" id="skills">
       <div className="mx-auto max-w-4xl">
         <Reveal>
-          <SectionHeading index="03" title="Skills & Technologies" />
+          <SectionHeading index="04" title="Skills & Technologies" />
         </Reveal>
 
         <div className="mt-10 grid gap-8">
